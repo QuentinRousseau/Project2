@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    --primary-color: #0065fc;
+    --secondary-color: #deebff;
+    --section-background-color: #F2F2F2; /*Donner des noms du plus générique au plus spécifique*/
+
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 24px;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+#banner img {
+    height: 36px;
+    
+}
+#banner nav a {
+    text-decoration: none;
+    color: black;
+
+}
+#banner nav .selected {
+
+    color: var(--primary-color);
+
+    
+}
