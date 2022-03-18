@@ -20,13 +20,15 @@ body{
     height: 36px;
     
 }
+
 #banner nav a {
     text-decoration: none;
     color: black;
-
+    display: inline-block;
+    padding: 40px;
 }
 #banner nav .selected {
-
+    border-top: 2px solid var(--primary-color);
     color: var(--primary-color);
 
     
