@@ -18,7 +18,7 @@ body{
 }
 #banner img {
     height: 36px;
-    
+    padding: 0px 8px;
 }
 
 #banner nav a {
@@ -29,7 +29,17 @@ body{
 }
 #banner nav .selected {
     border-top: 2px solid var(--primary-color);
-    color: var(--primary-color);
-
-    
+    color: var(--primary-color);   
 }
+
+h4{
+    padding: 0px ;
+    margin: 0px;
+}
+
+.subtitle{
+    margin: 4px 0px;
+}
+
+
+
