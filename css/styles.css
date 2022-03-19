@@ -41,5 +41,11 @@ h4{
     margin: 4px 0px;
 }
 
+#search_bar form{
+    margin-top: 16px;
+    border: 2px solid  chocolate;
+    
+
+} 
 
 

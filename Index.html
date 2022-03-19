@@ -6,19 +6,21 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">         <!-- Acces a googlefonts Relaway (jusqu'a la ligne 11)-->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/normalize.css" />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> <!-- Acces a la lib FontAwesome pour css-->
+        <link rel="stylesheet" href="./css/normalize.css" /><!-- Acces au dossier normalize pour faciliter la mise en page css-->
+        <link rel="stylesheet" href="./css/styles.css" /><!-- Acces au dossier css pour la mise en page desktop-->
+        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /><!-- Acces au dossier css pour mise en page mobile-->
 
         <title>Projet n°2: Booki</title>
     </head>
 
     <body>
             <header>
+
+                <!--        BANNER      -->
                 <div id="banner">
                     <img src="./images/logo/Booki.png" alt="Logo de Booki">
                     <nav>
@@ -26,10 +28,18 @@
                          <a href="#">Activités</a>
                     </nav>
                 </div>
-                
+
+                <!--         Title      -->
                 <h4>Trouver votre hébergement pour des vacances de rêve</h4>
                 <p class="subtitle" >En plein centre ville ou en pleine nature</p>
+                
+                <!--        Search bar  -->
 
+                <div id="search_bar">
+                    <form method="post" action="#">
+                        <p>Marseille, France</p>
+                    </form>
+                </div>
                 
             </header>
 
