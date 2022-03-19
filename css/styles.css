@@ -6,7 +6,7 @@ body{
     --primary-color: #0065fc;
     --secondary-color: #deebff;
     --section-background-color: #F2F2F2; /*Donner des noms du plus générique au plus spécifique*/
-
+    width: auto;
     font-family: 'Raleway', sans-serif;
     margin: 0px 24px;
 }
