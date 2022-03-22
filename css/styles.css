@@ -51,7 +51,7 @@ h4{
 
 } 
 
-#search_bar button{
+#search_bar .bouton1{
     background-color: var(--primary-color);
 }
 #search_bar i{
