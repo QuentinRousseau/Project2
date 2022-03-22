@@ -72,9 +72,14 @@ h4{
 
 
 #filter{
+    display: flex;
     border: 2px solid green;
     display: flex;
-    justify-content: baseline;
+    
+}
+.filter button{
+    text-align: center;
+    justify-content: center;
 }
 #info{
     border: 2px solid lightsalmon;
