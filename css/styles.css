@@ -19,6 +19,7 @@ body{
 #banner img {
     height: 36px;
     padding: 0px 8px;
+    
 }
 
 #banner nav a {
@@ -42,10 +43,41 @@ h4{
 }
 
 #search_bar form{
+    
+    text-align: justify;
     margin-top: 16px;
     border: 2px solid  chocolate;
-    
+    width: 100%;
 
 } 
 
+#search_bar button{
+    background-color: var(--primary-color);
+}
+#search_bar i{
+    border: 2px solid brown;
+    background-color: #deebff;
+}
+#search_bar form input{
+    
+    border: 2px solid brown;
+    margin: 12px 0px;
+    height: 48px;
+    
+}
+#search_bar button{
+    background-color: var(--primary-color);
+
+}
+
+
+#filter{
+    border: 2px solid green;
+    display: flex;
+    justify-content: baseline;
+}
+#info{
+    border: 2px solid lightsalmon;
+    height: 24px;
+}
 

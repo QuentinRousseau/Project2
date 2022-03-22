@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">         <!-- Acces a googlefonts Relaway (jusqu'a la ligne 11)-->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> <!-- Acces a la lib FontAwesome pour css-->
+        <script src="https://kit.fontawesome.com/99564c639a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/normalize.css" /><!-- Acces au dossier normalize pour faciliter la mise en page css-->
         <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/petite_resolution.css" /><!-- Acces au dossier css pour mise en page mobile-->
         <link rel="stylesheet" href="./css/styles.css" /><!-- Acces au dossier css pour la mise en page desktop-->
@@ -39,10 +39,39 @@
 
                 <div id="search_bar">
                     <form method="post" action="#">
-                        <p><input type="text" name="pseudo" /></p>
+                        
+                            <i class="fa-solid fa-location-dot"></i><!-- Mise en place de commentaire pour eviter un espace entre les blocs
+                         --><input type="search" name="town_search" value="Marseille, France"/><!--
+                         --><input type="button" value="Rechercher">
+                       
                     </form>
                 </div>
                 
+                <div id="filter">
+                    Filtres
+                    <div class="filter button">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <input type="button" value="Économique">
+                    </div>
+                    <div class="filter button">
+                        <i class="fa-solid fa-child"></i>
+                        <input type="button" value="Familial"> 
+                    </div>
+                    <div class="filter button">
+                        <i class="fa-solid fa-heart"></i>
+                        <input type="button" value="Romantique">   
+                    </div>
+                    <div class="Animaux autorisés">
+                        <i class="fa-solid fa-dog"></i>
+                        <input type="button" value="Animaux autorisés">
+                    </div>
+
+                </div>
+                <div id="info">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Plus de 500 logements sont disponibles dans cette ville
+                </div>
+
             </header>
 
     </body>
