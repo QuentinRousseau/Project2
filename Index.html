@@ -11,9 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> <!-- Acces a la lib FontAwesome pour css-->
         <link rel="stylesheet" href="./css/normalize.css" /><!-- Acces au dossier normalize pour faciliter la mise en page css-->
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/petite_resolution.css" /><!-- Acces au dossier css pour mise en page mobile-->
         <link rel="stylesheet" href="./css/styles.css" /><!-- Acces au dossier css pour la mise en page desktop-->
-        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /><!-- Acces au dossier css pour mise en page mobile-->
-
+        
+        
+        
         <title>Projet n°2: Booki</title>
     </head>
 
@@ -24,8 +26,8 @@
                 <div id="banner">
                     <img src="./images/logo/Booki.png" alt="Logo de Booki">
                     <nav>
-                         <a href="#" class="selected">Hébergements</a>
-                         <a href="#">Activités</a>
+                         <a href="#ancre1">Hébergements</a>
+                         <a href="#ancre2">Activités</a>
                     </nav>
                 </div>
 
@@ -37,7 +39,7 @@
 
                 <div id="search_bar">
                     <form method="post" action="#">
-                        <p>Marseille, France</p>
+                        <p><input type="text" name="pseudo" /></p>
                     </form>
                 </div>
                 

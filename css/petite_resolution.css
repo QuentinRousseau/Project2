@@ -1,0 +1,6 @@
+@media all and (max-width:768px){ 
+#banner nav a:hover {
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 0px !important; /* le important permet d'ecraser le border top de base */
+}
+}

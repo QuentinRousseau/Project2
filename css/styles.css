@@ -27,7 +27,7 @@ body{
     display: inline-block;
     padding: 40px;
 }
-#banner nav .selected {
+#banner nav a:hover {
     border-top: 2px solid var(--primary-color);
     color: var(--primary-color);   
 }
