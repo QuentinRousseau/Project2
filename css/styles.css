@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
 }
+
 body{
-    
     --primary-color: #0065fc;
     --secondary-color: #deebff;
     --section-background-color: #F2F2F2; /*Donner des noms du plus générique au plus spécifique*/
@@ -10,6 +10,10 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0px 24px;
 }
+
+/*   header */
+
+
 #banner{
     display: flex;
     justify-content: space-between;
@@ -42,33 +46,37 @@ h4{
     margin: 4px 0px;
 }
 
+/* search bar */ 
+
 #search_bar form{
-    
+    display: flex;
     text-align: justify;
     margin-top: 16px;
-    border: 2px solid  chocolate;
-    width: 100%;
-
+    padding: 8px 0px;
+    border-radius: 20%;
+      
 } 
 
-#search_bar .bouton1{
-    background-color: var(--primary-color);
-}
-#search_bar i{
-    border: 2px solid brown;
-    background-color: #deebff;
-}
-#search_bar form input{
-    
-    border: 2px solid brown;
-    margin: 12px 0px;
-    height: 48px;
-    
-}
-#search_bar button{
-    background-color: var(--primary-color);
+#search_bar .button1{
+    width: 40px;
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 10px 0px 0px 10px;
 
 }
+#search_bar .search-bar{
+    border: 1px solid whitesmoke;
+    border-radius: 0%;
+    font-weight: 600;
+}
+#search_bar .button2{
+    height: 44px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
 
 
 #filter{
@@ -77,7 +85,7 @@ h4{
     display: flex;
     
 }
-.filter button{
+.filter_button{
     text-align: center;
     justify-content: center;
 }
