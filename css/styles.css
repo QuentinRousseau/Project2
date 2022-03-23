@@ -98,13 +98,15 @@ h6{
     border : 2px solid  lightgrey;
     border-radius: 100px;
     background-color: white;
-    margin-left: 16px
+    margin-left: 16px;
+    padding: 0px;
     
     
 }
 .filter_button .button_title{
     border: none;
     background-color: white;
+    padding-left: 8px;
 }
 .icons{
     border: none;
