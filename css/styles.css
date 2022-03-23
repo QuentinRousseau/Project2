@@ -14,6 +14,14 @@ body{
 /*   header */
 
 
+h4{
+    padding: 0px ;
+    margin: 0px;
+}
+
+h6{
+    font-size: medium;
+}
 #banner{
     display: flex;
     justify-content: space-between;
@@ -37,10 +45,6 @@ body{
     color: var(--primary-color);   
 }
 
-h4{
-    padding: 0px ;
-    margin: 0px;
-}
 
 .subtitle{
     margin: 4px 0px;
@@ -68,6 +72,7 @@ h4{
     border: 1px solid whitesmoke;
     border-radius: 0%;
     font-weight: 600;
+    
 }
 #search_bar .button2{
     height: 44px;
@@ -77,20 +82,47 @@ h4{
     border-radius: 0px 10px 10px 0px;
 }
 
-
+/* Barre des filtres*/
 
 #filter{
     display: flex;
     border: 2px solid green;
-    display: flex;
-    
+    height: 44px;
+    align-items: center;
 }
 .filter_button{
-    text-align: center;
-    justify-content: center;
+    display: flex;
+    border: 2px solid  lightgrey;
+    border-radius: 100px;
+    background-color: white;
+    margin-left: 16px
+    
+    
 }
+.filter_button .button_title{
+    border: none;
+    background-color: white;
+}
+.icons{
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 100px;
+}
+
+/* Petite info en dessous */
 #info{
-    border: 2px solid lightsalmon;
+    display: flex;
+    align-items: center;
     height: 24px;
+}
+#info i{
+    text-align: center;
+    font-size: smaller;
+    color: var(--primary-color);
+    border: 1px solid whitesmoke;
+    border-radius: 100px;
+    height: 21px;
+    width: 21px;
 }
 
