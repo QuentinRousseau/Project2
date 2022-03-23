@@ -6,12 +6,10 @@ body{
     --primary-color: #0065fc;
     --secondary-color: #deebff;
     --section-background-color: #F2F2F2; /*Donner des noms du plus générique au plus spécifique*/
-    width: auto;
+    max-width: 992px;
     font-family: 'Raleway', sans-serif;
-    margin: 0px 24px;
+    margin: 0px 28px;
 }
-
-/*   header */
 
 
 h4{
@@ -22,6 +20,11 @@ h4{
 h6{
     font-size: medium;
 }
+
+/*   header */
+
+
+
 #banner{
     display: flex;
     justify-content: space-between;
@@ -92,7 +95,7 @@ h6{
 }
 .filter_button{
     display: flex;
-    border: 2px solid  lightgrey;
+    border : 2px solid  lightgrey;
     border-radius: 100px;
     background-color: white;
     margin-left: 16px
@@ -126,3 +129,74 @@ h6{
     width: 21px;
 }
 
+/* 1ere section */
+#ancre1{
+    border: 2px solid rgb(0, 255, 42);
+    margin-top: 27px;
+    display: flex;
+    
+    
+}
+.hebergement_marseille{
+    border: 2px solid red;
+    border-radius: 16px;
+    background-color: var(--section-background-color);
+    margin-right: 16px;
+    padding: 21px;
+    width: 75%;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hebergement_populaire{
+    border: 2px solid fuchsia;
+    border-radius: 16px;
+    background-color: var(--section-background-color);
+    margin-right: 16px;
+    padding-top: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.heber_med{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:  26px 0px;
+    
+}
+.hebergement_marseille h6{
+    font-size: smaller;
+    margin: 4px 0px;
+}
+.hebergement_marseille p{
+    font-size: xx-small;
+    margin: 0;
+}
+
+.affiches_heber{
+    border-radius: 16px;
+    box-shadow: 2px 2px 12px lightgrey ;
+    background-color: white;
+    min-width: 200px;
+    height: 150px;
+    padding: 4px;  
+}
+.hebergement_marseille img{
+    margin: auto;
+    width: auto;
+    max-height: 65%;
+    border-radius: 16px 16px 0px 0px;
+    display: block;
+    align-content: center;
+    
+}
+.most_popu img{
+    max-width: 150px;
+    max-height: auto;
+}
