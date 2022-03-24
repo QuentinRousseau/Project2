@@ -3,4 +3,7 @@
     border-bottom: 2px solid var(--primary-color);
     border-top: 0px !important; /* le important permet d'ecraser le border top de base */
 }
+#banner {
+    flex-direction: column;
+}
 }

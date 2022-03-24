@@ -6,8 +6,9 @@ body{
     --primary-color: #0065fc;
     --secondary-color: #deebff;
     --section-background-color: #F2F2F2; /*Donner des noms du plus générique au plus spécifique*/
-    max-width: 992px;
+    
     font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
     margin: 0px 28px;
 }
 
@@ -15,6 +16,8 @@ body{
 h4{
     padding: 0px ;
     margin: 0px;
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 h6{
@@ -90,30 +93,37 @@ h6{
 #filter{
     display: flex;
     border: 2px solid green;
-    height: 44px;
+    height: 48px;
     align-items: center;
 }
 .filter_button{
     display: flex;
-    border : 2px solid  lightgrey;
+    border : 2px  solid  lightgrey;
     border-radius: 100px;
     background-color: white;
     margin-left: 16px;
-    padding: 0px;
-    
-    
+    padding: 0px; 
+}
+.filter_button :hover{
+    box-shadow: 2px 2px 8px var(--primary-color);
 }
 .filter_button .button_title{
     border: none;
     background-color: white;
     padding-left: 8px;
-    margin-right: 12px;
+    margin: 8px;
 }
 .icons{
-    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    position: relative;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 100px;
+    border: none;
+    overflow: hidden;
 }
 
 /* Petite info en dessous */
@@ -175,29 +185,46 @@ h6{
 }
 .hebergement_marseille h6{
     font-size: smaller;
-    margin: 4px 0px;
+    margin: 12px 0px 0px 0px;
 }
 .hebergement_marseille p{
     font-size: xx-small;
     margin: 0;
 }
-
+/* Bloc hébergement marseille */
 .affiches_heber{
+    display: block;
+    justify-content: space-between;
     border-radius: 16px;
     box-shadow: 2px 2px 12px lightgrey ;
     background-color: white;
-    min-width: 200px;
-    height: 150px;
+    width: 200px;
     padding: 4px;  
+}
+.affiches_heber a{
+    color: #333;
+    text-decoration: none;
+}
+.affiches_heber:hover{
+    width: 220px
+
+}
+.affiches_img{
+    display: block;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 .hebergement_marseille img{
     margin: auto;
     width: auto;
-    max-height: 65%;
+    height: 100%;
     border-radius: 16px 16px 0px 0px;
     display: block;
     align-content: center;
-    
+    top: 50%;
+    left: 50%;
 }
 .most_popu img{
     max-width: 150px;
