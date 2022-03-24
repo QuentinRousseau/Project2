@@ -6,4 +6,21 @@
 #banner {
     flex-direction: column;
 }
+#search_bar .button2{
+    display: none;
+}
+#search_bar .button_loupe{
+    height: 44px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+}
+@media all and (min-width: 768px)
+{
+    #search_bar .button_loupe{
+        display: none;
+    }
+
 }
