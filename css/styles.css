@@ -266,6 +266,9 @@ h6{
     align-content: flex-start;
 
 }
+.affiches_heber.affiches_title{
+    display: block;
+}
 .most_popu{
     display: flex;
     justify-content: flex-start;
