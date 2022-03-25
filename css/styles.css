@@ -28,13 +28,15 @@ h6{
 
 
 #banner{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 12px;
+ 
 }
 #banner img {
-    height: 36px;
+    height: 30px;
     padding: 0px 8px;
     
 }
@@ -43,11 +45,16 @@ h6{
     text-decoration: none;
     color: black;
     display: inline-block;
-    padding: 40px;
+    padding: 17px;
+    border-top: 2px  solid transparent;
+    border-bottom: 2px  solid transparent;
 }
 #banner nav a:hover {
     border-top: 2px solid var(--primary-color);
     color: var(--primary-color);   
+}
+.title{
+    margin-top: 10px;
 }
 
 
@@ -98,38 +105,44 @@ h6{
 
 #filter{
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid green;
-    height: 48px;
     align-items: center;
+}
+#filter h6{
+    margin: 14px;
 }
 .filter_button{
     display: flex;
     border : 2px  solid  lightgrey;
     border-radius: 100px;
     background-color: white;
-    margin-left: 16px;
+    margin: 8px;
     padding: 0px; 
 }
-.filter_button :hover{
+.filter_button:hover{
     box-shadow: 2px 2px 8px var(--primary-color);
 }
 .filter_button .button_title{
-    border: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    padding-left: 8px;
+    padding: 8px;
     margin: 8px;
 }
 .icons{
     display: flex;
     justify-content: center;
+    width: 50px;
+    height: 50px;
     align-items: center;
-    padding: 0px 12px;
     position: relative;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 100px;
     border: none;
-    overflow: hidden;
+    overflow: visible;
 }
 
 /* Petite info en dessous */
@@ -153,6 +166,7 @@ h6{
     border: 2px solid rgb(0, 255, 42);
     margin-top: 27px;
     display: flex;
+    flex-wrap: wrap-reverse;
     
     
 }
@@ -162,31 +176,26 @@ h6{
     background-color: var(--section-background-color);
     margin-right: 16px;
     padding: 21px;
-    width: 75%;
+    max-width: 880;
+    max-height: 6250px;
     flex: 1;
     flex-direction: column;
+    
     align-items: center;
     
 }
 
-.hebergement_populaire{
-    border: 2px solid fuchsia;
-    border-radius: 16px;
-    background-color: var(--section-background-color);
-    margin-right: 16px;
-    padding-top: 21px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-}
+
 
 .heber_med{
     border: 2px solid rebeccapurple;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     margin:  26px 0px;
+   
+
     
 }
 .hebergement_marseille h6{
@@ -204,8 +213,9 @@ h6{
     border-radius: 16px;
     box-shadow: 2px 2px 12px lightgrey ;
     background-color: white;
-    width: 200px;
-    padding: 4px;  
+    height: 200px;
+    width: 250px;
+    margin: 20px;  
 }
 .affiches_heber a{
     color: #333;
@@ -218,9 +228,8 @@ h6{
 .affiches_img{
     display: block;
     height: 150px;
-    width: 100%;
+    width: 33%;
     position: relative;
-    overflow: hidden;
 }
 .hebergement_marseille img{
     margin: auto;
@@ -232,16 +241,38 @@ h6{
     top: 50%;
     left: 50%;
 }
+.hebergement_populaire{
+    border: 2px solid fuchsia;
+    border-radius: 16px;
+    background-color: var(--section-background-color);
+    margin-right: 16px;
+    padding-top: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+    max-height: 100%;
+}
 .most_popu img{
-    max-width: 150px;
-    max-height: auto;
+
+    width: 125px;
+    height: 136px;
+    border-radius: 16px 0px 0px 16px;
+    display: block;
+    align-content: flex-start;
+
 }
 .most_popu{
-    display: block;
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-start;
     border-radius: 16px;
     box-shadow: 2px 2px 12px lightgrey ;
     background-color: white;
     width: 200px;
     padding: 4px; 
+}
+.most_popu.affiche_title{
+    height: max-content;
+    width: max-content;
+
 }

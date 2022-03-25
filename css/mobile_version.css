@@ -5,13 +5,13 @@
         min-width: 100%;
         align-items: center;
     }
+    #banner nav a{
+        border-color: lightgrey;    }
     #banner nav a:hover {
         border-bottom: 2px solid var(--primary-color);
         border-top: 0px !important; /* le important permet d'ecraser le border top de base */
     }
-    #banner nav {
-      
-    }
+
 
     #search_bar .button2{
         display: none;
