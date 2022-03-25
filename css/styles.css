@@ -6,7 +6,6 @@ body{
     --primary-color: #0065fc;
     --secondary-color: #deebff;
     --section-background-color: #F2F2F2; /*Donner des noms du plus générique au plus spécifique*/
-    
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     margin: 0px 28px;
@@ -87,17 +86,14 @@ h6{
     border: none;
     border-radius: 0px 10px 10px 0px;
 }
-@media all and (max-width: 768px)
- {   
+@media  (min-width: 768px)
+{
+    #search_bar .button_loupe{
+        display: none;
+    }
 
-#search_bar .button_loupe{
-    height: 44px;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 0px 10px 10px 0px;
 }
- }
+
 /* Barre des filtres*/
 
 #filter{
