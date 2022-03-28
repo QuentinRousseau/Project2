@@ -15,8 +15,7 @@ body{
 
 
 h2{
-    padding: 0px ;
-    margin: 0px;
+
     font-size: medium;
     font-weight: bolder;
 }
@@ -33,13 +32,13 @@ h6{
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
     padding: 0px 12px;
  
 }
 #banner img {
-    height: 30px;
-    width: 61px;
+  
+    height: 50px;
     padding-left: 12px;
     
 }
@@ -60,7 +59,6 @@ h6{
 .title{
     margin-top: 10px;
 }
-
 
 .subtitle{
     margin: 4px 0px;

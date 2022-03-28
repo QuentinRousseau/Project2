@@ -1,28 +1,30 @@
-@media all and (max-width:768px){ 
+
     body{
-        margin:0px !important;
+        margin:0px;
     }
 
     #banner {
     
         flex-direction: column;
-        margin: 0px !important;
-        padding: 0px !important;
+        margin: 0px;
+        padding: 0px ;
     }
     #banner img{
+    align-items: center;
         margin-top: 26px;
     }
     #banner nav{
         display: flex;
+        text-align: center;
     }
     #banner nav a{
-        margin: 0px !important;
-        width: 50% !important;
+        margin: 0px ;
+        width: 50% ;
 
     }
     #banner nav a:hover {
         border-bottom: 2px solid var(--primary-color);
-        border-top: 0px !important; /* le important permet d'ecraser le border top de base */
+        border-top-color : transparent; /* le important permet d'ecraser le border top de base */
     }
 
     .title{
@@ -70,6 +72,4 @@
     #hebergement_populaire{
         display: block;
     }
-
-}
 
