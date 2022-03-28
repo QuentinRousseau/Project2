@@ -1,16 +1,30 @@
 @media all and (max-width:768px){ 
+   body{
+       
+   }
     #banner {
         margin-top: 27px;
         flex-direction: column;
-        min-width: 100%;
+        width: 100%;
         align-items: center;
+    }
+    #banner nav{
+        display: flex;
+    }
+    #banner nav a{
+        margin: 0px !important;
+        width: 50% !important;
+
     }
     #banner nav a:hover {
         border-bottom: 2px solid var(--primary-color);
         border-top: 0px !important; /* le important permet d'ecraser le border top de base */
     }
 
-
+    /* Search bar*/
+    #search_bar .search-bar{
+        width: 100% ;
+    }
     #search_bar .button2{
         display: none;
     }
@@ -22,8 +36,16 @@
         border: none;
         border-radius: 10px 10px 10px 10px;
     }
+
+    /*Barre de filtres*/
+
     #filter{
     
     flex-wrap: wrap;    }
+    #filter_title{
+        width: 300px;
+
+       }
+
 }
 

@@ -9,13 +9,15 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     margin: 0px 28px;
+    min-width: 375px;
+    max-width: 992px;
 }
 
 
-h4{
+h2{
     padding: 0px ;
     margin: 0px;
-    font-size: x-large;
+    font-size: medium;
     font-weight: bolder;
 }
 
@@ -37,15 +39,17 @@ h6{
 }
 #banner img {
     height: 30px;
-    padding: 0px 8px;
+    width: 61px;
+    padding-left: 12px;
     
 }
 
 #banner nav a {
     text-decoration: none;
+    font-size: small;
     color: black;
     display: inline-block;
-    padding: 17px;
+    padding: 17px 60px;
     border-top: 2px  solid transparent;
     border-bottom: 2px  solid transparent;
 }
@@ -60,6 +64,7 @@ h6{
 
 .subtitle{
     margin: 4px 0px;
+    font-size: smaller;
 }
 
 /* search bar */ 
@@ -73,7 +78,7 @@ h6{
       
 } 
 
-#search_bar .button1{
+#search_bar .button1{   /*Bouton map*/
     width: 40px;
     background-color: whitesmoke;
     border:none;
@@ -84,9 +89,9 @@ h6{
     border: 1px solid whitesmoke;
     border-radius: 0%;
     font-weight: 600;
-    
+    width: 244px;
 }
-#search_bar .button2{
+#search_bar .button2{   /*Bouton Rechercher*/
     height: 44px;
     background-color: var(--primary-color);
     color: white;
@@ -119,6 +124,7 @@ h6{
     background-color: white;
     margin: 8px;
     padding: 0px; 
+
 }
 .filter_button:hover{
     box-shadow: 2px 2px 8px var(--primary-color);
@@ -134,15 +140,15 @@ h6{
 .icons{
     display: flex;
     justify-content: center;
-    width: 50px;
-    height: 50px;
     align-items: center;
     position: relative;
+    width: 50px;
+    height: 50px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 100px;
     border: none;
-    overflow: visible;
+
 }
 
 /* Petite info en dessous */
