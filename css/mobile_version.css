@@ -1,7 +1,5 @@
 @media all and (max-width:768px){ 
-   body{
-       
-   }
+
     #banner {
         margin-top: 27px;
         flex-direction: column;
@@ -41,11 +39,17 @@
 
     #filter{
     
-    flex-wrap: wrap;    }
+    flex-wrap: wrap;    
+    }
     #filter_title{
-        width: 300px;
+        width: 700px;
 
-       }
+    }
+
+    /*Infos*/
+    #infos{
+        width: 700px;
+    }
 
 }
 

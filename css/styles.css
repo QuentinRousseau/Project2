@@ -78,6 +78,7 @@ h6{
       
 } 
 
+
 #search_bar .button1{   /*Bouton map*/
     width: 40px;
     background-color: whitesmoke;
@@ -86,10 +87,11 @@ h6{
 
 }
 #search_bar .search-bar{
+    border: none;
     border: 1px solid whitesmoke;
-    border-radius: 0%;
     font-weight: 600;
     width: 244px;
+   
 }
 #search_bar .button2{   /*Bouton Rechercher*/
     height: 44px;
@@ -115,7 +117,7 @@ h6{
     align-items: center;
 }
 #filter h6{
-    margin: 14px;
+    margin-right: 21px;
 }
 .filter_button{
     display: flex;
@@ -154,17 +156,33 @@ h6{
 /* Petite info en dessous */
 #info{
     display: flex;
+
     align-items: center;
     height: 24px;
+    margin:21px 0px;
+}
+#info p{
+    margin-left: 16px;
+    font-weight: lighter;
+}
+#info button{
+    border: none;
+    background-color: white;
 }
 #info i{
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
     text-align: center;
-    font-size: smaller;
+    font-weight: bolder;
+    font-size: x-small;
+    padding: 6px 0px;
     color: var(--primary-color);
-    border: 1px solid whitesmoke;
-    border-radius: 100px;
-    height: 21px;
-    width: 21px;
+    border: 1px solid lightgrey;
+    border-radius: 200px;
+    height: 25px;
+    width: 25px;
 }
 
 /* 1ere section */
