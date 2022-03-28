@@ -10,7 +10,7 @@ body{
     font-weight: bolder;
     margin: 0px 28px;
     min-width: 375px;
-    max-width: 992px;
+    
 }
 
 
@@ -156,7 +156,6 @@ h6{
 /* Petite info en dessous */
 #info{
     display: flex;
-
     align-items: center;
     height: 24px;
     margin:21px 0px;
@@ -278,7 +277,7 @@ h6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 33%;
+    min-width: 33%;
     max-height: 100%;
 }
 .most_popu img{
