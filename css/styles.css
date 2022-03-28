@@ -71,16 +71,18 @@ h6{
 
 #search_bar form{
     display: flex;
-    text-align: justify;
+    align-items: center;
     margin-top: 16px;
     padding: 8px 0px;
     border-radius: 20%;
+    height: 44px;
       
 } 
 
 
 #search_bar .button1{   /*Bouton map*/
     width: 40px;
+    height: 44px;
     background-color: whitesmoke;
     border:none;
     border-radius: 10px 0px 0px 10px;
@@ -91,6 +93,8 @@ h6{
     border: 1px solid whitesmoke;
     font-weight: 600;
     width: 244px;
+    height: 44px;
+
    
 }
 #search_bar .button2{   /*Bouton Rechercher*/

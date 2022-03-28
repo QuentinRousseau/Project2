@@ -1,10 +1,16 @@
 @media all and (max-width:768px){ 
+    body{
+        margin:0px !important;
+    }
 
     #banner {
-        margin-top: 27px;
+    
         flex-direction: column;
-        width: 100%;
-        align-items: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    #banner img{
+        margin-top: 26px;
     }
     #banner nav{
         display: flex;
@@ -19,7 +25,17 @@
         border-top: 0px !important; /* le important permet d'ecraser le border top de base */
     }
 
+    .title{
+        margin:0px 12px 
+    }
+
+
     /* Search bar*/
+    #search_bar form{
+        justify-content: center;
+        align-items: center;
+        margin: 0px 12px;
+    }
     #search_bar .search-bar{
         width: 100% ;
     }
@@ -38,7 +54,7 @@
     /*Barre de filtres*/
 
     #filter{
-    
+    margin: 0px 12px;
     flex-wrap: wrap;    
     }
     #filter_title{
