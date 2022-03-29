@@ -12,7 +12,10 @@ body{
     min-width: 375px;
     
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 
 h2{
 
@@ -190,11 +193,9 @@ h6{
 /* 1ere section */
 #hosting_town{
     border: 2px solid rgb(0, 255, 42);
-    margin-top: 27px;
     display: flex;
     flex-wrap: wrap-reverse;
-    
-    
+      
 }
 .hosting_marseille{
     border: 2px solid red;
@@ -202,8 +203,7 @@ h6{
     background-color: var(--section-background-color);
     margin-right: 16px;
     padding: 21px;
-    max-width: 880;
-    max-height: 6250px;
+
     flex: 1;
     flex-direction: column;
     align-items: center;
@@ -213,18 +213,18 @@ h6{
 
 .heber_med{
     border: 2px solid rebeccapurple;
-    display: flex;  
-    gap: 20px;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
     margin:  26px 0px;
 }
 .hosting_marseille h6{
     font-size: smaller;
-    margin: 12px 0px 0px 0px;
+    margin: 8px 0px 0px 8px
 }
 .hosting_marseille p{
     font-size: xx-small;
-    margin: 0;
+    margin: 0px 0px 0px 8px;
 }
 /* Bloc hébergement marseille */
 .affiches_heber{
@@ -233,29 +233,23 @@ h6{
     border-radius: 16px;
     box-shadow: 2px 2px 12px lightgrey ;
     background-color: white;
-    height: 200px;
-    width: 250px;
-    margin: 20px;  
+ 
 }
 .affiches_heber a{
     color: #333;
     text-decoration: none;
 }
-.affiches_heber:hover{
-    
 
-}
 
 .affiches_img{
     height: 160px;
     object-fit: cover;
 }
 .hosting_marseille img{
-    margin: auto;
+    margin: 4px;
     height: 100%;
     border-radius: 16px 16px 0px 0px;
     display: block;
-    object-fit: fill;
 
 }
 /*   Hebergment Populaire   */
@@ -289,7 +283,6 @@ h6{
     border-radius: 16px;
     box-shadow: 2px 2px 12px lightgrey;
     background-color: white;
-    width: 95%;
     margin: 12px;
     padding: 4px; 
 }
