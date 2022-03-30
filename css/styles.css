@@ -88,6 +88,8 @@ h6 {
 .search_bar .button2 {
   /*Bouton Rechercher*/
   height: 44px;
+  position: relative;
+  left: -5px;
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -144,6 +146,7 @@ h6 {
 }
 
 /* Petite info en dessous */
+
 .info {
   display: flex;
   align-items: center;
@@ -188,13 +191,15 @@ h6 {
   flex-direction: column;
   align-items: center;
 }
-.hebergement_populaire {
+.popular_hosting {
   border: 2px solid fuchsia;
   border-radius: 16px;
   background-color: var(--section-background-color);
   padding-top: 21px;
   display: flex;
   flex-direction: column;
+  margin-left: 8px;
+  padding: 8px;
 }
 .hosting_card a {
   display: flex;
@@ -225,8 +230,11 @@ h6 {
   margin: 26px 0px;
   flex-wrap: wrap;
 }
+.hosting_marseille h2 {
+  margin-left: 12px;
+}
 .hosting_marseille h6 {
-  margin: 8px 0px 0px 8px;
+  margin: 0px 0px 0px 8px;
 }
 .hosting_marseille p {
   font-size: small;
@@ -238,8 +246,35 @@ h6 {
   border-radius: 16px 16px 0px 0px;
   object-fit: cover;
 }
+.card_title {
+  padding-top: 0;
+}
 /*   Hebergment Populaire   */
 
-.most_popu img {
+.popular_hosting .hosting_card {
+  margin-top: 16px;
+}
+.popular_hosting .hosting_card .card_img {
+  width: 30%;
+  height: auto;
+}
+.popular_hosting .card_title {
+  margin: 4px 0px 0px 12px;
+}
+.popular_hosting .card_title h6 {
+  margin: 0;
+}
+.popular_hosting img {
+  margin: 2%;
   border-radius: 16px 0px 0px 16px;
+  width: 100%;
+}
+.hosting_popular_title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 3%;
+}
+.popular_hosting .icon_popular i {
+  width: 40px;
+  height: 40px;
 }

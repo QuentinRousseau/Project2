@@ -42,6 +42,8 @@ body {
   display: none;
 }
 .search_bar .button_loupe {
+  position: relative;
+  left: -16px;
   height: 44px;
   width: 44px;
   background-color: var(--primary-color);
