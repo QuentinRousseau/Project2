@@ -1,76 +1,70 @@
+body {
+  margin: 0px;
+}
 
-    body{
-        margin:0px;
-    }
+.banner {
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+.banner img {
+  align-self: center;
+  margin-top: 26px;
+  width: min-content;
+}
+.banner nav {
+  display: flex;
+  text-align: center;
+}
+.banner nav a {
+  margin: 0px;
+  width: 50%;
+}
+.banner nav a:hover {
+  border-bottom: 2px solid var(--primary-color);
+  border-top-color: transparent; /* le important permet d'ecraser le border top de base */
+}
 
-    #banner {
-    
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px ;
-    }
-    #banner img{
-        align-self: center;
-        margin-top: 26px;
-        width: min-content;
-    }
-    #banner nav{
-        display: flex;
-        text-align: center;
-    }
-    #banner nav a{
-        margin: 0px ;
-        width: 50% ;
+.title {
+  margin: 0px 12px;
+}
 
-    }
-    #banner nav a:hover {
-        border-bottom: 2px solid var(--primary-color);
-        border-top-color : transparent; /* le important permet d'ecraser le border top de base */
-    }
+/* Search bar*/
+.search_bar form {
+  justify-content: center;
+  align-items: center;
+  margin: 0px 12px;
+}
+.search_bar .search-bar {
+  width: 100%;
+}
+.search_bar .button2 {
+  display: none;
+}
+.search_bar .button_loupe {
+  height: 44px;
+  width: 44px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+}
 
-    .title{
-        margin:0px 12px 
-    }
+/*Barre de filtres*/
 
+.filter {
+  margin: 0px 12px;
+  flex-wrap: wrap;
+}
+.filter_title {
+  width: 700px;
+}
 
-    /* Search bar*/
-    #search_bar form{
-        justify-content: center;
-        align-items: center;
-        margin: 0px 12px;
-    }
-    #search_bar .search-bar{
-        width: 100% ;
-    }
-    #search_bar .button2{
-        display: none;
-    }
-    #search_bar .button_loupe{
-        height: 44px;
-        width: 44px;
-        background-color: var(--primary-color);
-        color: white;
-        border: none;
-        border-radius: 10px 10px 10px 10px;
-    }
+/*Infos*/
+.infos {
+  width: 700px;
+}
 
-    /*Barre de filtres*/
-
-    #filter{
-    margin: 0px 12px;
-    flex-wrap: wrap;    
-    }
-    #filter_title{
-        width: 700px;
-
-    }
-
-    /*Infos*/
-    #infos{
-        width: 700px;
-    }
-
-    #hebergement_populaire{
-        display: block;
-    }
-
+.hebergement_populaire {
+  display: block;
+}
