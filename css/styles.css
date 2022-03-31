@@ -10,6 +10,10 @@ body {
   font-weight: bolder;
   margin: 0px 28px;
   min-width: 375px;
+  max-width: 1440px;
+}
+p {
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -32,6 +36,7 @@ h6 {
   justify-content: space-between;
   padding: 0px 12px;
 }
+
 .banner img {
   height: 50px;
   padding: 12px 0px 0px 12px;
@@ -46,10 +51,12 @@ h6 {
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
 }
+
 .banner nav a:hover {
   border-top: 2px solid var(--primary-color);
   color: var(--primary-color);
 }
+
 .title {
   margin-top: 10px;
 }
@@ -78,6 +85,7 @@ h6 {
   border: none;
   border-radius: 10px 0px 0px 10px;
 }
+
 .search_bar .search-bar {
   border: none;
   border: 1px solid whitesmoke;
@@ -85,6 +93,7 @@ h6 {
   width: 244px;
   height: 44px;
 }
+
 .search_bar .button2 {
   /*Bouton Rechercher*/
   height: 44px;
@@ -95,6 +104,7 @@ h6 {
   border: none;
   border-radius: 0px 10px 10px 0px;
 }
+
 @media (min-width: 768px) {
   .search_bar .button_loupe {
     display: none;
@@ -109,9 +119,11 @@ h6 {
   border: 2px solid green;
   align-items: center;
 }
+
 .filter h6 {
   margin-right: 21px;
 }
+
 .filter_button {
   display: flex;
   border: 2px solid var(--section-background-color);
@@ -120,9 +132,11 @@ h6 {
   margin: 8px;
   padding: 0px;
 }
+
 .filter_button:hover {
   box-shadow: 2px 2px 8px var(--primary-color);
 }
+
 .filter_button .button_title {
   position: relative;
   justify-content: center;
@@ -131,6 +145,7 @@ h6 {
   padding: 8px;
   margin: 8px;
 }
+
 .icons {
   display: flex;
   justify-content: center;
@@ -153,14 +168,17 @@ h6 {
   height: 24px;
   margin: 21px 0px;
 }
-.info p {
+
+.info_p {
   margin-left: 16px;
   font-weight: lighter;
 }
+
 .info button {
   border: none;
   background-color: white;
 }
+
 .info i {
   justify-content: center;
   align-items: center;
@@ -190,16 +208,19 @@ h6 {
   flex: 1;
   flex-direction: column;
   align-items: center;
+  padding: 16px;
+  width: 70%;
 }
+
 .popular_hosting {
   border: 2px solid fuchsia;
   border-radius: 16px;
   background-color: var(--section-background-color);
-  padding-top: 21px;
   display: flex;
   flex-direction: column;
   margin-left: 8px;
-  padding: 8px;
+  padding: 12px;
+  width: 30%;
 }
 .hosting_card a {
   display: flex;
@@ -209,6 +230,12 @@ h6 {
   box-shadow: 2px 2px 12px lightgrey;
   background-color: white;
 }
+.stars_icon {
+  margin-left: 4px;
+  color: #0065fc;
+  font-size: small;
+}
+
 .hosting_marseille a {
   flex-direction: column;
 }
@@ -230,8 +257,13 @@ h6 {
   margin: 26px 0px;
   flex-wrap: wrap;
 }
+
+.heber_med .stars_icon {
+  margin-left: 8px;
+}
+
 .hosting_marseille h2 {
-  margin-left: 12px;
+  margin-top: 8px;
 }
 .hosting_marseille h6 {
   margin: 0px 0px 0px 8px;
@@ -246,30 +278,40 @@ h6 {
   border-radius: 16px 16px 0px 0px;
   object-fit: cover;
 }
+
 .card_title {
+  margin: 2px;
   padding-top: 0;
 }
 /*   Hebergment Populaire   */
 
+.popular_card_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .popular_hosting .hosting_card {
   margin-top: 16px;
+  width: 90%;
 }
 .popular_hosting .hosting_card .card_img {
   width: 30%;
-  height: auto;
 }
 .popular_hosting .card_title {
   margin: 4px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .popular_hosting .card_title h6 {
   margin: 0;
 }
 .popular_hosting img {
-  margin: 2%;
+  margin: 4px;
   border-radius: 16px 0px 0px 16px;
   width: 100%;
 }
-.hosting_popular_title {
+.popular_hosting_title {
   display: flex;
   justify-content: space-between;
   margin: 0% 3%;

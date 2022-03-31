@@ -67,6 +67,14 @@ body {
   width: 700px;
 }
 
-.hebergement_populaire {
+/* premiere section */
+.popular_hosting .hosting_card a {
+  width: 100%;
+}
+/*hebergement marseille*/
+
+/*hebergement populaire*/
+.popular_hosting {
   display: block;
+  width: 100%;
 }
