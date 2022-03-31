@@ -78,3 +78,17 @@ body {
   display: block;
   width: 100%;
 }
+
+.activities_town h2 {
+  margin-left: 16px;
+}
+
+.activities_town .activities_card {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.activities_town .hosting_card {
+  margin-top: 20px;
+}

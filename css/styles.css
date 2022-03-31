@@ -116,7 +116,6 @@ h6 {
 .filter {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid green;
   align-items: center;
 }
 
@@ -196,13 +195,11 @@ h6 {
 
 /* 1ere section */
 .hosting_town {
-  border: 2px solid rgb(0, 255, 42);
   display: flex;
   flex-wrap: wrap-reverse;
 }
 
 .hosting_marseille {
-  border: 2px solid red;
   border-radius: 16px;
   background-color: var(--section-background-color);
   flex: 1;
@@ -213,7 +210,6 @@ h6 {
 }
 
 .popular_hosting {
-  border: 2px solid fuchsia;
   border-radius: 16px;
   background-color: var(--section-background-color);
   display: flex;
@@ -243,15 +239,12 @@ h6 {
 }
 
 .card_img img {
-  width: 235px;
-  height: 120px;
   object-fit: cover;
 }
 
 /* Bloc hébergement marseille */
 
 .heber_med {
-  border: 2px solid rebeccapurple;
   display: flex;
   justify-content: center;
   column-gap: 12px;
@@ -278,7 +271,8 @@ h6 {
 .hosting_marseille img {
   margin: 4px;
   border-radius: 16px 16px 0px 0px;
-  object-fit: cover;
+  width: 235px;
+  height: 120px;
 }
 
 .card_title {
@@ -298,7 +292,10 @@ h6 {
 }
 .popular_hosting .hosting_card .card_img {
   width: 30%;
+  height: 120px;
+  margin-bottom: 1px;
 }
+
 .popular_hosting .card_title {
   margin: 4px 0px 0px 12px;
   display: flex;
@@ -312,6 +309,7 @@ h6 {
   margin: 4px;
   border-radius: 16px 0px 0px 16px;
   width: 100%;
+  height: 95%;
 }
 .popular_hosting_title {
   display: flex;
@@ -334,6 +332,20 @@ h6 {
 .activities_town h2 {
   padding: 8px 4px;
 }
+.activities_town h6 {
+  margin: 8px 12px;
+}
+
+.double_card_1 {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.double_card_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .activities_town .activities_title {
   font-size: large;
@@ -346,8 +358,26 @@ h6 {
   flex-wrap: wrap;
 }
 
-.hosting_card {
+.activities_town .hosting_card {
   border: 1px solid lightcoral;
   display: flex;
   flex-direction: column;
+  width: 300px;
+  justify-content: space-around;
+}
+.activities_town .hosting_card .card_img img {
+  width: 298px;
+  height: 100%;
+  border-radius: 16px 16px 0 0;
+}
+.simple_card .hosting_card {
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.activities_town .hosting_card .card_img {
+  height: 100%;
+}
+.activities_town .hosting_card .card_title {
+  align-items: center;
 }
