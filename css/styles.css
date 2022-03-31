@@ -231,9 +231,11 @@ h6 {
   background-color: white;
 }
 .stars_icon {
-  margin-left: 4px;
-  color: #0065fc;
+  color: var(--primary-color);
   font-size: small;
+}
+.grey_stars {
+  letter-spacing: 4px;
 }
 
 .hosting_marseille a {
@@ -319,4 +321,35 @@ h6 {
 .popular_hosting .icon_popular i {
   width: 40px;
   height: 40px;
+}
+
+/*2eme section*/
+
+.activities_town {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightseagreen;
+  margin-top: 3%;
+}
+.activities_town h2 {
+  padding: 8px 4px;
+}
+
+.activities_town .activities_title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.activities_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hosting_card {
+  border: 1px solid lightcoral;
+  display: flex;
+  flex-direction: column;
+}
+.hosting_card .simple_card .card_img {
+  height: 1884px;
 }
