@@ -343,13 +343,11 @@ h6 {
 .activities_card {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hosting_card {
   border: 1px solid lightcoral;
   display: flex;
   flex-direction: column;
-}
-.hosting_card .simple_card .card_img {
-  height: 1884px;
 }
