@@ -76,9 +76,8 @@ h6 {
   border-radius: 20%;
   height: 44px;
 }
-
+/*Bouton map*/
 .search_bar .button1 {
-  /*Bouton map*/
   width: 40px;
   height: 44px;
   background-color: whitesmoke;
@@ -93,9 +92,8 @@ h6 {
   width: 244px;
   height: 44px;
 }
-
+/*Bouton Rechercher*/
 .search_bar .button2 {
-  /*Bouton Rechercher*/
   height: 44px;
   position: relative;
   left: -5px;
