@@ -340,28 +340,27 @@ h6 {
   margin: 8px 12px;
 }
 
-.double_card {
-  justify-content: space-between;
+.double_card_1 {
+  display: flex;
+  flex-direction: column;
+}
+.double_card_2 {
   display: flex;
   flex-direction: column;
 }
 
-.activities_town .activities_title {
-  font-size: large;
-  font-weight: bold;
-}
-
 .activities_card {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .activities_town .hosting_card {
   border: 1px solid lightcoral;
   display: flex;
   flex-direction: column;
-  width: 300px;
+
   justify-content: space-around;
 }
 .activities_town .hosting_card .card_img img {
@@ -371,12 +370,27 @@ h6 {
 }
 .simple_card .hosting_card {
   height: 100%;
+  max-height: 450px;
   justify-content: flex-start;
 }
 
 .activities_town .hosting_card .card_img {
   height: 100%;
 }
-.activities_town .hosting_card .card_title {
-  align-items: center;
+
+/*      Footer      */
+
+.footer {
+  margin-top: 40px;
+  background-color: var(--section-background-color);
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.list_footer ul {
+  padding: 0;
+}
+.list_footer li {
+  padding: 8px 0;
 }
