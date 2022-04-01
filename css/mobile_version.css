@@ -68,15 +68,21 @@ body {
 }
 
 /* premiere section */
-.popular_hosting .hosting_card a {
-  width: 100%;
+
+.hosting_town {
+  gap: 0;
 }
 /*hebergement marseille*/
 
 /*hebergement populaire*/
 .popular_hosting {
-  display: block;
   width: 100%;
+  padding: 12px 0;
+  margin: 0;
+  border-radius: none;
+}
+.popular_hosting .card_title {
+  width: 140px;
 }
 
 .activities_town h2 {
@@ -91,4 +97,7 @@ body {
 
 .activities_town .hosting_card {
   margin-top: 20px;
+}
+.activities_town .hosting_card .card_img img {
+  min-height: 30%;
 }

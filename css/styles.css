@@ -195,6 +195,7 @@ h6 {
 .hosting_town {
   display: flex;
   flex-wrap: wrap-reverse;
+  gap: 20px;
 }
 
 .hosting_marseille {
@@ -212,9 +213,7 @@ h6 {
   background-color: var(--section-background-color);
   display: flex;
   flex-direction: column;
-  margin-left: 8px;
   padding: 12px;
-  width: 30%;
 }
 .hosting_card a {
   display: flex;
@@ -283,9 +282,10 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
+  padding-top: 12px;
 }
 .popular_hosting .hosting_card {
-  margin-top: 16px;
   width: 90%;
 }
 .popular_hosting .hosting_card .card_img {
@@ -314,6 +314,12 @@ h6 {
   justify-content: space-between;
   margin: 0% 3%;
 }
+.popular_hosting_title span {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 16px;
+}
 .popular_hosting .icon_popular i {
   width: 40px;
   height: 40px;
@@ -334,15 +340,10 @@ h6 {
   margin: 8px 12px;
 }
 
-.double_card_1 {
+.double_card {
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-}
-.double_card_2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .activities_town .activities_title {
