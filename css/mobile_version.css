@@ -8,6 +8,7 @@ body {
   padding: 0px;
 }
 .banner img {
+  display: flex;
   align-self: center;
   margin-top: 26px;
 }
@@ -86,6 +87,8 @@ body {
   width: 140px;
 }
 
+/* Deuxieme section*/
+
 .activities_town h2 {
   margin-left: 16px;
 }
@@ -93,7 +96,6 @@ body {
 .activities_town .activities_card {
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .activities_town .hosting_card {
@@ -101,6 +103,7 @@ body {
 }
 .activities_town .hosting_card .card_img img {
   min-height: 30%;
+  max-height: 140px;
 }
 
 /*      Footer      */

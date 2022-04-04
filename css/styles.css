@@ -347,7 +347,6 @@ h6 {
 .activities_town {
   display: flex;
   flex-direction: column;
-  border: 1px solid lightseagreen;
   margin-top: 3%;
 }
 .activities_town h2 {
@@ -357,13 +356,13 @@ h6 {
   margin: 8px 12px;
 }
 
-.double_card_1 {
+.double_card {
   display: flex;
+  align-items: center;
   flex-direction: column;
-}
-.double_card_2 {
-  display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  max-height: 450px;
+  gap: 20px;
 }
 
 .activities_card {
@@ -374,16 +373,19 @@ h6 {
 }
 
 .activities_town .hosting_card {
-  border: 1px solid lightcoral;
   display: flex;
   flex-direction: column;
-
-  justify-content: space-around;
 }
 .activities_town .hosting_card .card_img img {
   width: 298px;
-  height: 100%;
   border-radius: 16px 16px 0 0;
+}
+.simple_card .card_img img {
+  height: 100%;
+}
+.double_card .hosting_card .card_img img {
+  height: 100%;
+  max-height: 160px;
 }
 .simple_card .hosting_card {
   height: 100%;
