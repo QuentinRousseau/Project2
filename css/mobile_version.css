@@ -55,7 +55,7 @@ body {
 /*Barre de filtres*/
 
 .filter {
-  margin: 0px 12px;
+  margin: 12px;
   flex-wrap: wrap;
 }
 .filter_title {
@@ -77,12 +77,7 @@ body {
   border-radius: 0;
 }
 /*hebergement populaire*/
-.popular_hosting {
-  width: 100%;
-  padding: 12px 0;
-  margin: 0;
-  border-radius: 0;
-}
+
 .popular_hosting .card_title {
   width: 140px;
 }

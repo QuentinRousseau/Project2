@@ -44,6 +44,7 @@ h4 {
 .banner nav a {
   text-decoration: none;
   font-size: small;
+  font-weight: 700;
   color: black;
   display: inline-block;
   padding: 17px 60px;
@@ -238,6 +239,14 @@ h4 {
   display: flex;
   flex-direction: column;
   padding: 12px;
+}
+@media (max-width: 805px) {
+  .popular_hosting {
+    width: 100%;
+    padding: 12px 0;
+    margin: 0;
+    border-radius: 0;
+  }
 }
 .hosting_card a {
   display: flex;
