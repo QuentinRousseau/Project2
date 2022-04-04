@@ -84,6 +84,9 @@ body {
 
 /* Deuxieme section*/
 
+.wrap_block {
+  flex-direction: column;
+}
 .activities_town h2 {
   margin-left: 16px;
 }
