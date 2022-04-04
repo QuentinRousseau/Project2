@@ -315,12 +315,14 @@ h4 {
   height: 120px;
   margin-bottom: 1px;
 }
-
+.popular_hosting h4 {
+  margin: 0;
+}
 .popular_hosting .card_title {
   margin: 4px 0px 0px 12px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 .popular_hosting .card_title h6 {
   margin: 0;
