@@ -308,6 +308,7 @@ h4 {
 }
 .popular_hosting .hosting_card {
   width: 90%;
+  height: 122px;
 }
 .popular_hosting .hosting_card .card_img {
   width: 30%;
