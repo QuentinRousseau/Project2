@@ -7,7 +7,6 @@ body {
   --secondary-color: #deebff;
   --section-background-color: #f2f2f2; /*Donner des noms du plus générique au plus spécifique*/
   font-family: "Raleway", sans-serif;
-  font-weight: bolder;
   margin: 0px 28px;
   max-width: 1440px;
   margin-left: auto;
@@ -26,7 +25,7 @@ h2 {
   font-weight: bolder;
 }
 
-h6 {
+h4 {
   font-size: medium;
 }
 
@@ -59,6 +58,7 @@ h6 {
 
 .title {
   margin-top: 10px;
+  margin-left: 16px;
 }
 
 .subtitle {
@@ -67,7 +67,9 @@ h6 {
 }
 
 /* search bar */
-
+.search_bar {
+  margin-left: 16px;
+}
 .search_bar form {
   display: flex;
   align-items: center;
@@ -115,6 +117,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: 16px;
 }
 
 .filter h6 {
@@ -171,7 +174,7 @@ h6 {
   display: flex;
   align-items: center;
   height: 24px;
-  margin: 21px 0px;
+  margin: 21px 0px 21px 14px;
 }
 
 .info_p {
@@ -204,6 +207,7 @@ h6 {
   display: flex;
   flex-wrap: wrap-reverse;
   gap: 20px;
+  margin: 0px 16px;
 }
 .hosting_card:hover {
   -webkit-transition: all 500ms ease-in;
@@ -347,12 +351,12 @@ h6 {
 .activities_town {
   display: flex;
   flex-direction: column;
-  margin-top: 3%;
+  margin: 14px 0 14px 14px;
 }
 .activities_town h2 {
   padding: 8px 4px;
 }
-.activities_town h6 {
+.activities_town h4 {
   margin: 8px 12px;
 }
 
@@ -385,7 +389,7 @@ h6 {
 }
 .double_card .hosting_card .card_img img {
   height: 100%;
-  max-height: 160px;
+  max-height: 145px;
 }
 .simple_card .hosting_card {
   height: 100%;
