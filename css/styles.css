@@ -278,7 +278,7 @@ h4 {
 .hosting_marseille h2 {
   margin-top: 8px;
 }
-.hosting_marseille h6 {
+.hosting_marseille h4 {
   margin: 0px 0px 0px 8px;
 }
 .hosting_marseille p {
@@ -296,6 +296,7 @@ h4 {
 .card_title {
   margin: 2px;
   padding-top: 0;
+  padding-bottom: 4px;
 }
 /*   Hebergment Populaire   */
 
