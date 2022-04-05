@@ -140,20 +140,11 @@ h4 {
 
 .filter_button:hover {
   box-shadow: 2px 1px 8px var(--primary-color);
-  -webkit-transition: all 500ms ease-in;
-  -webkit-transform: scale(1.1);
-  -ms-transition: all 500ms ease-in;
-  -ms-transform: scale(1.1);
-  -moz-transition: all 500ms ease-in;
-  -moz-transform: scale(1.1);
   transition: all 500ms ease-in;
   transform: scale(1.1);
 }
 
 .filter_button .button_title {
-  position: relative;
-  justify-content: center;
-  align-items: center;
   background-color: white;
   padding: 8px;
   margin: 8px;
@@ -194,11 +185,6 @@ h4 {
 }
 
 .info i {
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  font-weight: bolder;
   font-size: x-small;
   padding: 6px 0px;
   color: var(--primary-color);
@@ -216,12 +202,6 @@ h4 {
   margin: 0px 16px;
 }
 .hosting_card:hover {
-  -webkit-transition: all 500ms ease-in;
-  -webkit-transform: scale(1.1);
-  -ms-transition: all 500ms ease-in;
-  -ms-transform: scale(1.1);
-  -moz-transition: all 500ms ease-in;
-  -moz-transform: scale(1.1);
   transition: all 500ms ease-in;
   transform: scale(1.1);
 }
