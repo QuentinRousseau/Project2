@@ -349,10 +349,10 @@ h4 {
 .activities_town {
   display: flex;
   flex-direction: column;
-  margin: 14px 0 14px 14px;
+  margin: 14px 0 14px 0;
 }
 .activities_town h2 {
-  padding: 8px 4px;
+  padding: 8px 8px;
 }
 .activities_town h4 {
   margin: 8px 12px;
@@ -412,6 +412,12 @@ h4 {
   justify-content: space-around;
   gap: 30px;
   flex-wrap: wrap;
+}
+
+.list_footer {
+  width: 300px;
+  flex-grow: 1;
+  padding: 30px;
 }
 .list_footer ul {
   padding: 0;

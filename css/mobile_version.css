@@ -10,7 +10,7 @@ body {
 .banner img {
   display: flex;
   align-self: center;
-  margin-top: 26px;
+  margin: 26px 0 0 40px;
 }
 .banner nav {
   display: flex;
